@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profil Anda</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<style>
+    /* Custom CSS dapat ditambahkan di sini */
+</style>
+</head>
+<body class="bg-gray-100">
+
+<div class="container mx-auto p-8">
+
+    <!-- Profil -->
+    <div id="profil" class="bg-white p-8 rounded-lg shadow-md mb-8">
+        <h1 class="text-2xl font-bold mb-4">Profil Saya</h1>
+        <img src="foto-anda.jpg" alt="Foto Anda" class="rounded-full mx-auto mb-4">
+        <p id="nama" class="text-lg"><strong>Nama:</strong> Your Name</p>
+        <p id="nim" class="text-lg"><strong>NIM:</strong> Your NIM</p>
+        <p id="kelas" class="text-lg"><strong>Kelas:</strong> Your Class</p>
+    </div>
+
+    <!-- JavaScript untuk mengisi informasi profil -->
+    <script>
+        // Ganti informasi dengan data Anda
+        document.getElementById("nama").innerText = "Nama: Your Name";
+        document.getElementById("nim").innerText = "NIM: Your NIM";
+        document.getElementById("kelas").innerText = "Kelas: Your Class";
+    </script>
+
+</div>
+
+</body>
+</html>
